@@ -12,11 +12,12 @@
 <body>
 
     <div class="container">
+        <!---------------------START OF SIDEBAR --------------------->
         <aside>
             <div class="top">
                 <div class="logo">
                     <img src="./images/sampleLogo.png" alt="Logo">
-                    <h2>Name of<span class="danger"> Company</span></h2>
+                    <h2>Logo<span class="danger"> Name</span></h2>
                 </div>
                 <div class="close" id="close-btn">
                     <span class="material-icons-sharp">close</span>
@@ -24,7 +25,7 @@
             </div>
 
             <div class="sidebar">
-                <a href="#">
+                <a href="#" class="active">
                     <span class="material-icons-sharp">grid_view</span>
                     <h3>Dashboard</h3>
                 </a>
@@ -50,7 +51,7 @@
                     <h3>Products</h3>
                 </a>
                  <a href="#">
-                    <span class="material-icons-sharp">gmailerrored</span>
+                    <span class="material-icons-sharp">error</span>
                     <h3>Reports</h3>
                 </a>
                  <a href="#">
@@ -68,10 +69,80 @@
 
             </div>
         </aside>
+
+        <!--------------------- START OF MIDDLE SECTION  --------------------->
+        <main>
+            <h1>Dashboard</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-icons-sharp">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>Php 25,000</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 hours</small>
+                </div>
+                <!--------------------- END OF SALES  --------------------->
+
+                <div class="expenses">
+                    <span class="material-icons-sharp">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>Php 25,000</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 hours</small>
+                </div>
+                <!--------------------- END OF EXPENSES  --------------------->
+
+                <div class="income">
+                    <span class="material-icons-sharp">stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Income</h3>
+                            <h1>Php 14,000</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>44%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 hours</small>
+                </div>
+                <!--------------------- END OF INCOME  --------------------->
+
+            </div>
+        </main>
+
+
     </div>
-
-
-
-    
 </body>
 </html>
