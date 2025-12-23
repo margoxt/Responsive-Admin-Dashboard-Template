@@ -18,4 +18,5 @@
 ![image alt](https://github.com/margoxt/Responsive-Admin-Dashboard-Template/blob/301483a8a3c47f80a8fbfd8b4a04d0d985bbee1f/output-image/Admin-TabletView.png)
 
 - Mobile View
+
 ![image alt](https://github.com/margoxt/Responsive-Admin-Dashboard-Template/blob/301483a8a3c47f80a8fbfd8b4a04d0d985bbee1f/output-image/Admin-MobileView.png)
